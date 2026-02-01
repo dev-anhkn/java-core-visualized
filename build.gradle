@@ -1,0 +1,26 @@
+allprojects {
+    group = "home.java.core"
+    version = "1.0.0"
+
+    repositories {
+        mavenCentral()
+    }
+}
+
+subprojects {
+    apply plugin: 'java'
+
+    java {
+        toolchain {
+            languageVersion.set(JavaLanguageVersion.of(25))
+        }
+    }
+
+    dependencies {
+        implementation("org.slf4j:slf4j-api:2.0.17")
+        runtimeOnly("ch.qos.logback:logback-classic:1.5.27")
+    }
+}
+
+
+
