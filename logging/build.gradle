@@ -1,0 +1,2 @@
+// module này được khai báo là một library module
+apply plugin: 'java-library'

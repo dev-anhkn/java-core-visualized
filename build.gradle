@@ -1,5 +1,5 @@
 allprojects {
-    group = "home.java.core"
+    group = "com.home.java.core"
     version = "1.0.0"
 
     repositories {
