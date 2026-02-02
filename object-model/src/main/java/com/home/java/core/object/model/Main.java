@@ -4,6 +4,7 @@ import com.home.java.core.logging.Log;
 import com.home.java.core.object.model.method.ArrayMutateDemo;
 import com.home.java.core.object.model.method.BoxDemo;
 import com.home.java.core.object.model.method.CollectionMutateDemo;
+import com.home.java.core.object.model.method.ImmutabilityDemo;
 import com.home.java.core.object.model.method.ObjectMutateDemo;
 import com.home.java.core.object.model.method.PrimitivePassByValueDemo;
 import com.home.java.core.object.model.method.ReassignReferenceDemo;
@@ -30,7 +31,8 @@ public class Main {
 //                new WrapperDemo()
 //                new StringDemo()
 //                new ArrayMutateDemo()
-                new CollectionMutateDemo()
+//                new CollectionMutateDemo()
+                new ImmutabilityDemo()
         );
 
         for (Demo demo : demos) {
