@@ -34,7 +34,7 @@ public final class MutableKeyBugDemo implements Demo {
         log.info("=> FAIL vì hashCode thay đổi");
     }
 
-    static final class User {
+    private static final class User {
         private String id;
 
         User(String id) {

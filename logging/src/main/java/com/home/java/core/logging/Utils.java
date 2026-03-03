@@ -4,21 +4,23 @@ import org.slf4j.Logger;
 
 public class Utils {
 
+    private static final String HYPHENS = "------------------------------------------------";
     private static final Logger log = Log.of(Utils.class);
 
 
-    private Utils() {}
+    private Utils() {
+    }
 
     public static void runDemo(Demo demo) {
         log.info("");
-        log.info("------------------------------------------------");
+        log.info(HYPHENS);
         log.info("BẮT ĐẦU DEMO: {}", demo.getClass().getSimpleName());
-        log.info("------------------------------------------------");
+        log.info(HYPHENS);
 
         demo.run();
 
-        log.info("------------------------------------------------");
+        log.info(HYPHENS);
         log.info("KẾT THÚC DEMO: {}", demo.getClass().getSimpleName());
-        log.info("------------------------------------------------");
+        log.info(HYPHENS);
     }
 }
