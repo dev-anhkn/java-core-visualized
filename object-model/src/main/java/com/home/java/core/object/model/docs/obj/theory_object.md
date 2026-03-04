@@ -5,8 +5,9 @@
 # 1. Object là gì?
 
 ## Định nghĩa
-
+```
 > Object là một **instance** (thực thể cụ thể) của một class.
+```
 
 * **Object**: danh từ chỉ vật thể.
 * **Instance**: sự tồn tại cụ thể của một class trong bộ nhớ khi chương trình chạy.
@@ -14,6 +15,8 @@
 ### Định nghĩa “bỏ túi”
 
 > **Object = State (Trạng thái) + Behavior (Hành vi) + Identity (Danh tính)**
+
+> **Được tạo khi dùng **new****
 
 ---
 
@@ -87,14 +90,7 @@ Identity liên quan đến:
 
 ---
 
-# 3. Class và Object
 
-| Đặc điểm   | Class                        | Object                      |
-|------------|------------------------------|-----------------------------|
-| Bản chất   | Blueprint (khuôn) - metadata | Thực thể được tạo từ khuôn  |
-| Sự tồn tại | Mã nguồn                     | Tồn tại trong Heap khi chạy |
-| Số lượng   | 1 class                      | Có thể tạo nhiều object     |
-| Bộ nhớ     | Nạp vào Metaspace            | Chiếm RAM trong Heap        |
 
 ---
 

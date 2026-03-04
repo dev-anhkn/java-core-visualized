@@ -20,7 +20,7 @@
 
 ---
 
-## Level 3 – Hiểu bản chất hơn
+## Level 3 – Hiểu bản chất hơn 
 
 11. Nếu hai reference trỏ cùng một object, thay đổi state qua một reference có ảnh hưởng reference kia không?
 12. Vì sao mutable object dễ gây bug? - tìm hiểu thêm ở concurrency
