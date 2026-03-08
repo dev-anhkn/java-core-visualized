@@ -1,5 +1,8 @@
 package com.home.java.core.object.model;
 
+import java.util.List;
+import java.util.Objects;
+
 public final class Person {
     private String name;
     private int age;
@@ -20,6 +23,20 @@ public final class Person {
     @Override
     public String toString() {
         return "Person{" + "name='" + name + '\'' + ", age=" + age + '}';
+    }
+
+    @Override
+    public boolean equals(Object o) {
+
+        if (o == null || getClass() != o.getClass()) return false;
+        Person person = (Person) o;
+        return age == person.age && Objects.equals(name, person.name);
+    }
+
+    @Override
+    public int hashCode() {
+        List
+        return Objects.hash(name, age);
     }
 }
 

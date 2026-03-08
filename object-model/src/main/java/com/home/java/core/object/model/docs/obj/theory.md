@@ -174,8 +174,7 @@
       concurrency, nơi mà nhiều thread có thể cùng truy cập vào dữ liệu mà không lo xảy ra xung đột hay thay đổi không
       mong muốn.
     - Sử dụng Final Keyword: Các thuộc tính của immutable object thường được khai báo là final để đảm bảo chúng không
-      thể
-      thay đổi sau khi đối tượng đã được khởi tạo.
+      thể thay đổi sau khi đối tượng đã được khởi tạo.
       • Tối ưu hóa Garbage Collection: Vì immutable objects không thay đổi, hệ thống có thể tối ưu hóa việc thu gom
       rác (Garbage Collection) bằng cách chia sẻ đối tượng giữa các thread thay vì tạo bản sao mới.
 
@@ -206,9 +205,9 @@
       vì immutable object không thể bị thay đổi.
 
 -----
-Để đạt được level senior, bạn cần nắm vững:
-• Cách các object và reference hoạt động.
-• Quản lý bộ nhớ trong stack và heap.
-• Sử dụng từ khóa final để bảo vệ giá trị và tránh sự thay đổi không mong muốn.
-• Hiểu và áp dụng các immutable objects trong lập trình đồng thời (concurrency), giúp tránh các lỗi liên quan đến đồng
+Để đạt được level senior:
+- Cách các object và reference hoạt động.
+- Quản lý bộ nhớ trong stack và heap.
+- Sử dụng từ khóa final để bảo vệ giá trị và tránh sự thay đổi không mong muốn.
+- Hiểu và áp dụng các immutable objects trong lập trình đồng thời (concurrency), giúp tránh các lỗi liên quan đến đồng
 bộ hóa và tối ưu hóa hiệu suất.

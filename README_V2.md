@@ -10,8 +10,6 @@
 
 ### Day 2: `equals()` và `hashCode()`
 - Contract của `equals()` và `hashCode()`
-- Tạo class có custom `equals()`/`hashCode()`
-- Testing: HashMap key, Set
 
 ### Day 3: Collections cơ bản
 - ArrayList, LinkedList, HashMap
