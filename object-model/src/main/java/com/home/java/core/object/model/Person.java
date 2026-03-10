@@ -35,7 +35,6 @@ public final class Person {
 
     @Override
     public int hashCode() {
-        List
         return Objects.hash(name, age);
     }
 }
