@@ -1,40 +1,11 @@
 package com.home.java.core.object.model.collection;
 
-import java.util.LinkedList;
-import java.util.List;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 
-public class MyLinkedListDemo {
+public class MyLinkedList<E> {
 
-    public static void main(String[] args) {
-        List<String> linkedList = new LinkedList<>();
-        MyLinkedList<String> list = new MyLinkedList<>();
-
-        list.addLast("A");
-        list.addLast("B");
-        list.addLast("C");
-
-        list.printState();
-
-        list.addFirst("X");
-        list.printState();
-
-        list.add(2, "Y");
-        list.printState();
-
-        System.out.println("get(3) = " + list.get(3));
-
-        list.remove(1);
-        list.printState();
-
-        list.removeFirst();
-        list.printState();
-
-        list.removeLast();
-        list.printState();
-    }
-}
-
-class MyLinkedList<E> {
+    private static final Logger log = LoggerFactory.getLogger(MyLinkedList.class);
 
     private Node<E> first;
     private Node<E> last;
@@ -277,6 +248,6 @@ class MyLinkedList<E> {
     }
 
     private void log(String message) {
-        System.out.println("[MyLinkedList] " + message);
+        log.info("[MyLinkedList] {}", message);
     }
 }
