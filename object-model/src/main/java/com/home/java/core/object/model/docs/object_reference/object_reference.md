@@ -63,7 +63,7 @@ User b = new User("An", 20);
 ### 3. Class và Object
 
 | Đặc điểm   | Class                        | Object                      |
-                                                                                                                                |------------|------------------------------|-----------------------------|
+|:-----------|------------------------------|-----------------------------|
 | Bản chất   | Blueprint (khuôn) - metadata | Thực thể được tạo từ khuôn  |
 | Sự tồn tại | Mã nguồn                     | Tồn tại trong Heap khi chạy |
 | Số lượng   | 1 class                      | Có thể tạo nhiều object     |
@@ -98,10 +98,10 @@ Quy trình:
 ### 6. Object vs Primitive
 
 | Primitive | Object  |
-                                                                                  |-----------|---------|
-| int       | Integer |
-| double    | Double  |
-| boolean   | Boolean |
+|:---------:|:-------:|
+|    int    | Integer |
+|  double   | Double  |
+|  boolean  | Boolean |
 
 - Primitive:
     - Lưu giá trị trực tiếp
@@ -142,12 +142,12 @@ Quy trình:
       or 64
 3. Reference vs Primitive
 
-   | Đặc điểm            | Primitive                      | Reference                                             |
-                                                                                                                           |---------------------|--------------------------------|-------------------------------------------------------|
-   | Dữ liệu lưu trữ     | Giá trị thực (ví dụ: 5, true). | Địa chỉ bộ nhớ (ví dụ: 0x1A2B).                       |
-   | Vùng nhớ            | Stack                          | Stack (biến) và Heap (đối tượng).                     |
-   | Giá trị mặc định    | Không bao giờ là null.         | Mặc định là null nếu chưa gán.                        |
-   | Khi dùng toán tử == | So sánh giá trị thực sự.       | So sánh địa chỉ (hai biến có trỏ cùng một nơi không). |
+| Đặc điểm            | Primitive                      | Reference                                             |
+|---------------------|:-------------------------------|-------------------------------------------------------|
+| Dữ liệu lưu trữ     | Giá trị thực (ví dụ: 5, true). | Địa chỉ bộ nhớ (ví dụ: 0x1A2B).                       |
+| Vùng nhớ            | Stack                          | Stack (biến) và Heap (đối tượng).                     |
+| Giá trị mặc định    | Không bao giờ là null.         | Mặc định là null nếu chưa gán.                        |
+| Khi dùng toán tử == | So sánh giá trị thực sự.       | So sánh địa chỉ (hai biến có trỏ cùng một nơi không). |
 
 4. Tham chiếu Null
     - null reference là một tham chiếu không trỏ tới bất kỳ đối tượng nào trong bộ nhớ.
@@ -179,7 +179,7 @@ Quy trình:
   thông qua Garbage Collection (GC).
 
 | **Đặc điểm**                | **Heap**                                                                                           | **Stack**                                                              |
-                                                                                                             |-----------------------------|----------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
+|-----------------------------|:---------------------------------------------------------------------------------------------------|------------------------------------------------------------------------|
 | **Vị trí lưu trữ**          | Object + mảng (array).                                                                             | Lưu trữ các biến cục bộ (local variables) và tham chiếu đến object.    |
 | **Quản lý bộ nhớ**          | Garbage Collector.                                                                                 | Quản lý tự động bởi hệ thống, bộ nhớ được giải phóng khi hàm kết thúc. |
 | **Kích thước**              | Kích thước lớn, bộ nhớ có thể thay đổi động.                                                       | Kích thước nhỏ và cố định.                                             |

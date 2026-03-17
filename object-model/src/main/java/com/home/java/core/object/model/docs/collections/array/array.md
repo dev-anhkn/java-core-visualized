@@ -7,7 +7,6 @@ Array là cấu trúc dữ liệu lưu nhiều phần tử **cùng kiểu** tron
 ``` java
 int[] arr = new int[5];
 ````
----
 
 ## 2. Bản chất cốt lõi
 

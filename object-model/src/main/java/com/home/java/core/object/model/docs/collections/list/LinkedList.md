@@ -67,34 +67,16 @@
 
 ## 4. Tại sao LinkedList không cần mảng?
 
-Vì nó không cần vùng nhớ liên tiếp.
+- Vì nó không cần vùng nhớ liên tiếp.
+- `ArrayList` phải giữ một mảng như:
 
-`ArrayList` phải giữ một mảng như:
-
-```text
+``` text
 [10][20][30][40]
 ```
 
-Nếu hết chỗ, phải tạo mảng mới lớn hơn rồi copy.
-
-Nhưng `LinkedList` không cần vậy.
-Nó chỉ cần tạo thêm một node mới rồi móc vào chuỗi.
-
-Ví dụ đang có:
-
-```text
-A <-> B <-> C
-```
-
-Muốn thêm `D` cuối danh sách:
-
-```text
-A <-> B <-> C <-> D
-```
-
-Không cần copy cả danh sách như `ArrayList`.
-
----
+- Nếu hết chỗ, phải tạo mảng mới lớn hơn rồi copy.
+- Nhưng `LinkedList` không cần vậy.
+- Nó chỉ cần tạo thêm một node mới rồi móc vào chuỗi.
 
 ## 5. Cơ chế thêm phần tử
 
