@@ -3,6 +3,9 @@ package com.home.java.core.object.model.collection;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
+import java.util.LinkedList;
+import java.util.List;
+
 public class MyLinkedList<E> {
 
     private static final Logger log = LoggerFactory.getLogger(MyLinkedList.class);
@@ -249,5 +252,12 @@ public class MyLinkedList<E> {
 
     private void log(String message) {
         log.info("[MyLinkedList] {}", message);
+    }
+
+    private void test() {
+        List<String> linkedList = new LinkedList<>();
+        linkedList.add("a");
+        linkedList.add("b");
+
     }
 }

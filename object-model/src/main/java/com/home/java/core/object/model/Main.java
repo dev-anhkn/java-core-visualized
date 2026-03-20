@@ -1,15 +1,7 @@
 package com.home.java.core.object.model;
 
 import com.home.java.core.logging.Log;
-import com.home.java.core.object.model.method.ArrayMutateDemo;
-import com.home.java.core.object.model.method.BoxDemo;
-import com.home.java.core.object.model.method.CollectionMutateDemo;
 import com.home.java.core.object.model.method.ImmutabilityDemo;
-import com.home.java.core.object.model.method.ObjectMutateDemo;
-import com.home.java.core.object.model.method.PrimitivePassByValueDemo;
-import com.home.java.core.object.model.method.ReassignReferenceDemo;
-import com.home.java.core.object.model.method.StringDemo;
-import com.home.java.core.object.model.method.WrapperDemo;
 import org.slf4j.Logger;
 
 import java.util.List;
